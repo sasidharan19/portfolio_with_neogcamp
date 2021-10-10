@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
     <h1> Sasidharan's Component Library</h1>
@@ -16,6 +17,7 @@
     <h1>first</h1>
     <h2>second</h2>
     <p>normal</p>
+    <p>this paragraph contain <strong>bold</strong> text</p>
     <small> small</small>
 
     <hr>
@@ -23,37 +25,37 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>this is fluid container and it will go to the end of the page</div>
+    <div class="container">this is fluid container and it will go to the end of the page</div>
 
     <h3>center container</h3>
-    <div>this is center container and it will go to the specified width</div>
+    <div class="container container-center">this is center container and it will go to the specified width</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr>
 
     <h2>@links</h2>
     <h3>unordered links</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>list one</li>
         <li> list two</li>
         <li>list three</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
-    <li>list one</li>
-    <li>list two</li>
-    <li>list three</li>
+    <ul class="list-non-bullet">
+    <li class="list-inline">list one</li>
+    <li class="list-inline">list two</li>
+    <li class="list-inline">list three</li>
     </ul>
 
     <h3>reversed ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>list one</li>
         <li>list two</li>
         <li>list three</li>
