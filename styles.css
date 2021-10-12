@@ -4,10 +4,12 @@
     --primary-color:#3B82F6;
     --gray:
     #6B7280;
+    --off-white:#E5E7EB;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin:0px;
 }
 
 hr{
@@ -89,12 +91,42 @@ hr{
 
 .hero .hero-img{
     margin:auto;
-    max-width:350px;
+    max-width:450px;
     display:block;
 }
 
 .hero .hero-heading{
     padding-top: 1rem;
     color:var(--gray);
+    text-align: center;
+}
 
+.section{
+    padding:2rem;
+}
+
+.section h1{
+    text-align:center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius:1rem;
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start:0px;
 }
