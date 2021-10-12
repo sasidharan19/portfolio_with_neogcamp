@@ -4,130 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Sasidharan Portfolio</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
-    <h1> Sasidharan's Component Library</h1>
-    <p> I'm attending neog camp this is to create component library</p>
 
-    <hr>
-
-    <h1>@typography</h1>
-    <h1>first</h1>
-    <h2>second</h2>
-    <p>normal</p>
-    <p>this paragraph contain <strong>bold</strong> text</p>
-    <small> small</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">this is fluid container and it will go to the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">this is center container and it will go to the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@links</h2>
-    <h3>unordered links</h3>
-    <ul class="list-non-bullet">
-        <li>list one</li>
-        <li> list two</li>
-        <li>list three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-    <li class="list-item-inline">list one</li>
-    <li class="list-item-inline">list two</li>
-    <li class="list-item-inline">list three</li>
-    </ul>
-
-    <h3>reversed ordered list</h3>
-    <ol reversed>
-        <li>list one</li>
-        <li>list two</li>
-        <li>list three</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
+    <!-- nav -->
 
     <nav class="navigation container">
-        <div class="nav brand"> iam brand
+        <div class="nav-brand"> I AM A DEVELOPER </div>
             <ul class="list-non-bullets nav-pills">
                 <li class="list-item-inline">
-                    <a class="link link-active" href="/">Home</a>
+                    <a class="link link-active " href="/">Home</a>
                 </li>
                 <li class="list-item-inline">
-                    <a class="link" href="/">Products</a>
+                    <a class="link" href="/projects.html">Projects</a>
                 </li>
                 <li class="list-item-inline">
-                    <a class="link" href="/">About</a>
+                    <a class="link" href="/blogs.html">Blogs</a>
                 </li>
             </ul>
-        </div>
     </nav>
 
-    <hr>
+    <!-- Header -->
 
-    <h2>Header</h2>
     <header class="hero">
-        <img class="hero-img" src="images/hero.svg">
-        <h1 class="hero-heading">heading inside hero</h1>
+        <img class="hero-img" src="/images/hero.svg">
+        <h1 class="hero-heading">Sasidharan The <span> <style>span{
+            color:#3B82F6;
+        };</style>Web Developer</span></h1>
     </header>
 
-    <hr>
+    <!-- Section -->
+
+    <section class='section ow'>
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p> I'm familiar with HTML, CSS, Tailwind CSS, JavaScript, Python, Git, Firebase. </p>
+        </div>
+    </section>
 
     <section class="section">
         <div class="container container-center">
-            <h1>white section</h1>
-        <p>this section will have white background</p>
-        </div>      
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online.</p> 
+            <a class="link link-primary" href="/projects.html">Browse Projects</a>
+        </div>     
     </section>
 
     <section class='section ow'>
         <div class="container container-center">
-            <h1>off white section</h1>
-            <p>this section will have gray background </p>
+            <h1>Blogs</h1>
+            <p> I am also working on some technical and non-technical blogs. I like to document my journey of learning. </p>
+            <a class="link link-secondary" href="/blogs.html">Read Blogs</a>   
         </div>
     </section>
 
-    <hr>
+    <!-- Footer -->
 
-    <h2>@footer</h2>
     <footer class="footer">
-        <div class="footer-header">some small heading inside footer</div>
+        <div class="footer-header">Social Media Presence </div>
         <ul class="social-links list-non-bullet">
+
             <li class="list-item-inline">
-                <a class="link" href="/">
-                    socialone
+                <a class="link" href="https://github.com/sasidharan19">
+                    Github
                 <a>           
             </li>
+
             <li class="list-item-inline">
-                <a class="link" href="/">
-                    socialtwo
+                <a class="link" href="https://linkedin.com/in/sasidharan-s/">
+                    Linkedin
                 <a>           
             </li>
+            
             <li class="list-item-inline">
-                <a class="link" href="/">
-                    socialthree
+                <a class="link" href="https://twitter.com/Sasidharan_s_">
+                    Twitter
                 </a>     
             </li>
         </ul>
     </footer>
+
 
 </body>
 </html>
