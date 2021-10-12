@@ -33,6 +33,7 @@ hr{
     text-decoration: none;
     padding:0.5rem 1rem;
     max-width: 2rem;
+    border-radius: 0.5rem;
     
 }
 
@@ -75,7 +76,7 @@ hr{
 
 .navigation{
     background-color: var(--primary-color);
-    padding:1rem;
+    padding:0.5rem;
     border-bottom-left-radius: 1rem;
     color:white;
     font-size:1.1rem;
@@ -91,6 +92,9 @@ hr{
 
 .nav-brand{
     font-weight: bold;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    
 }
 
 .navigation .link-active{
@@ -152,13 +156,17 @@ hr{
     padding-inline-start:0px;
 }
 
-.footer .footer-header{
+.footer-header{
     font-weight: bold;
     font-size: large;
 }
 
 /** hover **/
 
-.hover-all :hover{
-    background-color:#78350F;
+.hover-all:hover{
+    background-color:#1D4ED8;
+}
+
+.hover-all-secondary:hover{
+    background-color:#D1D5DB;
 }
