@@ -112,6 +112,7 @@ hr{
     margin:auto;
     max-width:400px;
     display:block;
+    display:flex;
 }
 
 .hero-project-img{
