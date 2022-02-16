@@ -110,9 +110,9 @@ hr{
 
 .hero .hero-img{
     margin:auto;
-    max-width:400px;
+    max-width:100%;
     display:block;
-    display:flex;
+    
 }
 
 .hero-project-img{
